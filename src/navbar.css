@@ -1,0 +1,26 @@
+.navbar{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    transition: all 0.2s ease-in;
+}
+.navbg{
+    background-color: #111;
+    opacity: 95%;
+}
+
+.logo-img{
+    width: 100px;
+    position: fixed;
+    left: 20px;
+}
+.avatar-img{
+    width: 35px;
+    position: fixed;
+    right: 20px;
+}

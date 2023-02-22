@@ -1,5 +1,5 @@
 *{
-    margin: 0;
+    margin: 0;font-family: sans-serif;
 }
 
 .row-poster{
@@ -15,7 +15,13 @@
 .large:hover{
     transform: scale(1.14);
 }
-
+.movie-row h1{
+    color: white;
+    font-size: 18px;
+    font-weight: 550;
+    padding-left: 20px;
+    letter-spacing: 1.25px;
+}
 .movies{
     display: flex;
     overflow-y: hidden;
@@ -24,4 +30,58 @@
 }
 .movies::-webkit-scrollbar{
     display: none;
+}
+.banner{
+    color: white;
+    height: 450px;
+    object-fit: contain;
+}
+.banner h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding-bottom: 0.4rem;
+    width: 600px;
+}
+.banner-contents{
+    margin-left: 50px;
+    display: flex;
+    padding-top: 140px;
+    flex-direction: column;
+    gap: 10px;
+    height: 180px;
+}
+.banner-buttons{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 0.4rem;
+}
+.banner-buttons button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    color: white;
+    font-weight: 700;
+    border: none;
+    background-color: rgba(51, 51, 51, 0.5);
+    border-radius: 3px;
+}
+.banner-buttons button:hover{
+    color: black;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+.banner-contents p{
+    font-weight: bold;
+    width: 30rem;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    height: 80px;
+}
+
+.banner-fade{
+    height: 9rem;
+    background-image: linear-gradient(
+        180deg,transparent,rgba(37,37,37,0.8),#111);
 }
