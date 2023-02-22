@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+}
+
+.row-poster{
+    width: 150px;
+    object-fit: contain;
+    margin-right: 10px; 
+    transition: transform 150ms;
+}
+
+.row-poster:hover{
+    transform: scale(1.08);
+}
+.large:hover{
+    transform: scale(1.14);
+}
+
+.movies{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+}
+.movies::-webkit-scrollbar{
+    display: none;
+}
